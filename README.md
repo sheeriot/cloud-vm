@@ -6,4 +6,4 @@ This repository uses GitHub environment variables and secrets to deploy Virtual 
 
 Note this README is expanded in the README folder:
 
-- [infra/README/docs/01_overview.md](infra/README/docs/01_overview.md)
+- [infra/README/Azure/docs/01_overview.md](infra/README/Azure/docs/01_overview.md)
