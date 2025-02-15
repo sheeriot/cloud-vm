@@ -8,6 +8,17 @@ GitHub Actions drive Terraform through Azure Resource Manager.
 
 ![GitHub Actions drive Terraform Automation through Azure Resource Manager](diagrams/structurizr-1-GitHub.png)
 
+## Setup a new Azure Subscription (and Invoice Section)
+
+Recommended Pre-requisite: **Azure Billing Profile: Invoice Section**
+
+* Azure Invoice Section for new Subscription.
+  * Search for "Billing Profiles" and `create` an Invoice Section.
+
+This config item can be very hard to location. Start here with "billing profiles".
+
+* Create Azure Subscription, **assign to distinct Invoice Section**
+
 ### Create the Terraform Service Account on Azure
 
 Using the Azure CLI, as needed, create a new Azure Active Directory - Service Principal. In this example, scoped to a subscription
